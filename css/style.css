@@ -14,8 +14,8 @@ main {
     background-color: white;
     text-align: center;
     margin: auto;
-    height: 490px;
-    width: 600px;
+    min-height: 490px;
+    max-width: 600px;
     padding: 10px;
     border-radius: 2px;
 }
