@@ -1,4 +1,4 @@
-# Site para auxiliar a oração do Terço Terço
+# Site para auxiliar a oração do Terço
 
 ---
 
