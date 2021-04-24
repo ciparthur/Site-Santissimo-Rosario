@@ -6,10 +6,10 @@ function semana() {
     if (dia_atual == 1 || dia_atual == 4) {
         document.body.style.background = '#EAC102'
         titulo.innerHTML = `Mistérios Gozosos`
-    } else if (dia_atual == 2 || dia_atual == 5) {
+    } else if (dia_atual == 2 || dia_atual == 6) {
         document.body.style.background = '#ED1C24'
         titulo.innerHTML = `Mistérios Dolorosos`
-    } else if (dia_atual == 3 || dia_atual == 6 || dia_atual == 0) {
+    } else if (dia_atual == 3 || dia_atual == 5 || dia_atual == 0) {
         document.body.style.background = '#E6E6E6'
         titulo.innerHTML = `Mistérios Gloriosos`
     } else {
