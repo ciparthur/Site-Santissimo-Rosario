@@ -7,7 +7,7 @@
 **Terço ✝️**
 
 ```
-Mistérios Gozosos na segunda e quinta-feira;
+Mistérios Gozosos na segunda-feira e quinta-feira;
 Mistérios Dolorosos na terça e sexta-feira;
 Mistérios Gloriosos na quarta-feira, sábado e domingo.
 ```
