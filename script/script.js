@@ -11,6 +11,7 @@ function semana() {
         titulo.innerHTML = `Mistérios Dolorosos`
     } else if (dia_atual == 3 || dia_atual == 5 || dia_atual == 0) {
         document.body.style.background = '#E6E6E6'
+        document.body.style.color = 'black'
         titulo.innerHTML = `Mistérios Gloriosos`
     } else {
         document.body.style.background = '#1d1d1d'
