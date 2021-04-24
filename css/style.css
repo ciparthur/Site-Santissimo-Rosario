@@ -37,12 +37,19 @@ header#cabecalho {
 
 header#cabecalho h1 {
     font-size: 1.1em;
+}
+
+header#cabecalho p {
+    position: relative;
+    font-size: 0.8em;
     width: 190px;
+    top: -8px;
     display: inline-block;
 }
 
 header#cabecalho img {
-    margin-left: -40px;
+    position: relative;
+    top: -15px;
 }
 
 main header {
