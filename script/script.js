@@ -1,10 +1,19 @@
 function semana() {
     let data = new Date()
     let dia_atual = data.getDay()
-    let cor = window.document.getElementById('dia_atual')
-    let tit = window.document.getElementById('titulo')
+    let titulo = window.document.getElementById('titulo')
 
-    tit.innerHTML = `<h1>Hoje é dia ${dia_atual}</h1>`
-
-    document.body.style.background = ('#111b24')
+    if (dia_atual == 1 || dia_atual == 4) {
+        document.body.style.background = '#EAC102'
+        titulo.innerHTML = `Mistérios Gozosos`
+    } else if (dia_atual == 2 || dia_atual == 5) {
+        document.body.style.background = '#ED1C24'
+        titulo.innerHTML = `Mistérios Dolorosos`
+    } else if (dia_atual == 3 || dia_atual == 0) {
+        document.body.style.background = '#E6E6E6'
+        titulo.innerHTML = `Mistérios Gloriosos`
+    } else {
+        document.body.style.background = '#1d1d1d'
+        titulo.innerHTML = `ERRO!`
+    }
 }
