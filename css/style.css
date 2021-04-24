@@ -1,11 +1,5 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'Old London';
-    src: url('../fonts/OldLondon.ttf') format('truetype'), url('../fonts/Olondona.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'Romanica';
     src: url('../fonts/Romanica.ttf') format('truetype');
     font-weight: normal;
@@ -14,8 +8,7 @@
 
 :root {
     --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-destaque: 'Romanica';
-    --fonte-titulo: 'Old London';
+    --fonte-titulo: 'Romanica';
 
     --cor0: #EAC102;
     --cor1: #ED1C24;
@@ -32,7 +25,8 @@ body {
 header {
     text-align: center;
     font-family: var(--fonte-titulo);
-    color: white;
+    color: black;
+    font-size: 1.4em;
 }
 
 main {
@@ -46,6 +40,10 @@ main {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.322);
 }
 
+main h1, h2, h3 {
+    font-family: var(--fonte-titulo);
+}
+
 p.oracao {
     text-indent: 30px;
 }
@@ -54,5 +52,5 @@ footer {
     text-align: center;
     font-size: .9em;
     font-style: italic;
-    color: white;
+    color: black;
 }
