@@ -29,6 +29,7 @@ body {
 
 header {
     text-align: center;
+    font-family: var(--fonte-titulo);
     color: white;
 }
 
