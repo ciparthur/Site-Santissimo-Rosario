@@ -7,12 +7,11 @@ function semana() {
     let terceiro_misterio = window.document.getElementById('terceiro_misterio')
     let quarto_misterio = window.document.getElementById('quarto_misterio')
     let quinto_misterio = window.document.getElementById('quinto_misterio')
-    let image = window.document.getElementById('image')
 
     if (dia_atual == 1 || dia_atual == 4) {
         document.body.style.background = '#EAC102'
         misterios.innerHTML = `Mistérios Gozosos`
-        img.setAttribute('src', 'imagens/anunciação.png')
+
         primeiro_misterio.innerHTML = `Anunciação da Bem-Aventurada Virgem Maria`
         segundo_misterio.innerHTML = `Visitação da Bem-Aventurada Virgem Maria`
         terceiro_misterio.innerHTML = `O nascimento de Jesus Cristo Nosso Senhor`
@@ -22,7 +21,7 @@ function semana() {
     } else if (dia_atual == 2 || dia_atual == 5) {
         document.body.style.background = '#ED1C24'
         misterios.innerHTML = `Mistérios Dolorosos`
-        img.setAttribute('src', 'imagens/agonia.png')
+
         primeiro_misterio.innerHTML = `A Oração e Agonia de Jesus Cristo Nosso Senhor`
         segundo_misterio.innerHTML = `A Flagelação de Jesus Cristo Nosso Senhor`
         terceiro_misterio.innerHTML = `A Coroação de Espinhos de Jesus Cristo Nosso Senhor`
@@ -32,7 +31,7 @@ function semana() {
     } else if (dia_atual == 3 || dia_atual == 6 || dia_atual == 0) {
         document.body.style.background = '#E6E6E6'
         misterios.innerHTML = `Mistérios Gloriosos`
-        img.setAttribute('src', '../imagens/ressureição.png')
+
         primeiro_misterio.innerHTML = `A Ressurreição de Jesus Cristo Nosso Senhor`
         segundo_misterio.innerHTML = `A Ascensão de Jesus Cristo Nosso Senhor aos Céus`
         terceiro_misterio.innerHTML = `A Vindo do Espírito Santo`
@@ -49,7 +48,4 @@ function semana() {
         quinto_misterio.innerHTML = `ERRO!`
 
     }
-
-    image.style.textAlign = 'center'
-    image.appendChild(img)
 }
