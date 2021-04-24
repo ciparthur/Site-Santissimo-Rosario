@@ -29,6 +29,11 @@ header {
     font-size: 1.4em;
 }
 
+header div.image {
+    height: 140px;
+    width: 100px;
+}
+
 main {
     background-color: white;
     text-align: justify;
