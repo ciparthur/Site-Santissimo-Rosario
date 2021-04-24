@@ -3,5 +3,5 @@ function semana() {
     let dia_atual = data.getDay()
     let res = window.document.getElementById('dia_atual')
 
-    document.body.
+    document.body.style.background = ('#111b24')
 }
