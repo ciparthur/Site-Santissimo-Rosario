@@ -22,11 +22,6 @@
     --cor2: #E6E6E6;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
 body {
     font-family: var(--fonte-padrao);
     background-color: var(--cor0);
