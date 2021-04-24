@@ -16,7 +16,7 @@ Mistérios Gloriosos na quarta-feira, sábado e domingo.
 
 ```Em nome do Padre, e do Filho, e do Espirito Santo, Amém.```
 
-**Credo Católico :pray:**
+**Credo :pray:**
 
 ```
 Creio em Deus Padre, todo-poderoso, Criador do céu e da terra. E em Jesus Cristo, um só
