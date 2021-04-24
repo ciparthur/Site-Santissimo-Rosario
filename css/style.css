@@ -15,6 +15,10 @@
     --cor2: #E6E6E6;
 }
 
+* {
+    margin: 0px;
+}
+
 body {
     font-family: var(--fonte-padrao);
     background-color: var(--cor0);
@@ -22,19 +26,40 @@ body {
     font-style: normal;
 }
 
-header {
+header#cabecalho {
+    background-color: white;
+    font-family: var(--fonte-titulo);
+    min-height: 50px;
+    max-height: 60px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+}
+
+header#cabecalho h1 {
+    font-size: 1.1em;
+    width: 190px;
+    display: inline-block;
+}
+
+header#cabecalho img {
+    margin-left: -40px;
+}
+
+main header {
     text-align: center;
     font-family: var(--fonte-titulo);
     color: black;
+    background-color: transparent;
     font-size: 1.4em;
+    margin: 30px;
 }
 
-header div.image {
+main header div.image {
     height: 140px;
     width: 100px;
 }
 
-main {
+main article {
     background-color: white;
     text-align: justify;
     margin: auto;
@@ -45,9 +70,26 @@ main {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.322);
 }
 
-main h1, h2, h3 {
-    text-indent: 5px;
+main section {
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+main h1 {
     font-family: var(--fonte-titulo);
+    font-size: 2em;
+    text-indent: 5px;
+    margin: 8px;
+}
+
+main h2, h3 {
+    text-indent: 5px;
+    margin: 8px;
+    font-family: var(--fonte-titulo);
+}
+
+main p {
+    line-height: 30px;
 }
 
 p.oracao {
@@ -55,8 +97,12 @@ p.oracao {
 }
 
 footer {
+    background-color: white;
     text-align: center;
     font-size: .9em;
     font-style: italic;
     color: black;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.247);
 }
