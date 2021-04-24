@@ -1,4 +1,6 @@
-# Site para auxiliar a oração do Terço
+# Site Santíssimo Rosário
+
+**Site para auxiliar a oração do Terço**
 
 ---
 
