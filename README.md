@@ -2,87 +2,12 @@
 
 ---
 
-## Santíssimo Rosário
-
 **Terço ✝️**
 
 ```
 Mistérios Gozosos na segunda-feira e quinta-feira;
 Mistérios Dolorosos na terça e sexta-feira;
 Mistérios Gloriosos na quarta-feira, sábado e domingo.
-```
-
-**Sinal da Cruz ✝️**
-
-```Em nome do Padre, e do Filho, e do Espirito Santo, Amém.```
-
-**Credo :pray:**
-
-```
-Creio em Deus Padre, todo-poderoso, Criador do céu e da terra. E em Jesus Cristo, um só
-seu Filho, nosso Senhor, o qual foi concebido do Espírito Santo, nasceu de Maria Virgem;
-padeceu sob o poder de Pôncio Pilatos, foi crucificado, morto e sepultado; desceu aos
-infernos; ao terceiro dia ressurgiu dos mortos; subiu aos céus, está sentado à mão direita
-de Deus Padre todo-poderoso, donde há de vir a julgar os vivos e os mortos; creio no
-Espírito Santo; na santa Igreja Católica; na comunhão dos santos; na remissão dos
-pecados; na ressurreição da carne; na vida eterna. Amém.
-```
-
-**Padre Nosso :pray:**
-
-```
-Padre Nosso que estais nos Céus, santificado seja o vosso Nome, venha a nós o vosso
-Reino, seja feita a vossa vontade assim na terra como no Céu. O pão nosso de cada dia nos
-dai hoje, perdoai-nos as nossas dívidas assim como nós perdoamos aos nossos devedores,
-e não nos deixeis cair em tentação, mas livrai-nos do Mal. Amém.
-```
-
-**Ave Maria  :pray:**
-
-```
-Ave, Maria, cheia de graça, o Senhor é convosco.
-Bendita sois vós entre as mulheres,
-e Bendito é o Fruto do vosso ventre, Jesus!
-Santa Maria, Mãe de Deus,
-rogai por nós, pecadores,
-agora e na hora de nossa morte.
-Amém!
-```
-
-**Glória ao Padre :pray:**
-
-```
-Glória ao Padre e ao Filho e ao Espírito Santo. Assim como era no princípio, agora e
-sempre e por todos os séculos dos séculos. Amém.
-```
-
-**Ó meu Jesus :pray:**
-
-```
-Ó meu Jesus, perdoai-nos, livrai-nos do fogo do inferno. Levai as almas todas para o
-Céu, e socorrei principalmente as que mais precisarem.
-```
-
-**Infinitas graças vos damos :pray:**
-
-```
-Infinitas graças Vos damos, soberana Rainha, pelos benefícios que todos os dias
-recebemos de vossas mãos maternais.
-Dignai-Vos, agora e para sempre, tomar-nos debaixo do vosso poderoso amparo, e, para
-mais Vos agradecer vos saudamos com uma Salve Rainha.
-```
-
-**Salve Rainha :pray:**
-
-```
-Salve Rainha, Mãe de Misericórdia, Vida, doçura e esperança nossa, salve!
-A Vós bradamos, os degredados filhos de Eva.
-A Vós suspiramos, gemendo e chorando neste vale de lágrimas.
-Eia, pois, advogada nossa, Esses Vossos olhos misericordiosos a nós volvei, e, depois
-desse desterro, mostrai-nos Jesus, bendito fruto do Vosso Ventre.
-Ó Clemente, Ó Piedosa, Ó Doce Sempre Virgem Maria.
-Rogai por nós Santa Mãe de Deus, para que sejamos dignos das promessas de Cristo.
-Amém.
 ```
 
 ![MeuTerço](/imagens/MeuTerço.jpg)
