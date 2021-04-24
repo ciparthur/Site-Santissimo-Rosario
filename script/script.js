@@ -1,3 +1,3 @@
-function dia() {
-    
+function semana() {
+    let dia_atual = 
 }
