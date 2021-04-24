@@ -1,6 +1,4 @@
-# Arquivos sobre a Igreja Católica
-
-Arquivos sobre a **Igreja Católica**, **Sedevacantismo** e o **Vaticano II**.
+# Site para auxiliar a oração do Terço
 
 ---
 
@@ -87,8 +85,8 @@ Rogai por nós Santa Mãe de Deus, para que sejamos dignos das promessas de Cris
 Amém.
 ```
 
-![MeuTerço](/Imagens/MeuTerço.jpg)
-![NossaSenhora](/Imagens/NossaSenhora.jpg)
+![MeuTerço](/imagens/MeuTerço.jpg)
+![NossaSenhora](/imagens/NossaSenhora.jpg)
 
 ---
 
