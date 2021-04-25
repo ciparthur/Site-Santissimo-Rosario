@@ -14,7 +14,7 @@ function semana() {
     let quinto_misterio = window.document.getElementById('quinto_misterio')
 
     if (dia_atual == 1 || dia_atual == 4) { //Dia 1 = Segunda-feira e dia 4 = Quinta-feira
-        document.body.style.background = '#EAC102'
+        document.body.style.background = '#1a649b' //Tom de azul
         misterios.innerHTML = `Mistérios Gozosos`
 
         primeiro_misterio.innerHTML = `Anunciação da Bem-Aventurada Virgem Maria`
@@ -24,7 +24,7 @@ function semana() {
         quinto_misterio.innerHTML = `Descoberta de Nosso Senhor Jesus Cristo no Templo`
 
     } else if (dia_atual == 2 || dia_atual == 5) { //Dia 2 = Terça-feira e dia 5 = Sexta-feira
-        document.body.style.background = '#ED1C24'
+        document.body.style.background = '#ED1C24' //Tom de vermelho
         misterios.innerHTML = `Mistérios Dolorosos`
 
         primeiro_misterio.innerHTML = `A Oração e Agonia de Jesus Cristo Nosso Senhor`
@@ -34,7 +34,7 @@ function semana() {
         quinto_misterio.innerHTML = `A Crucificação de Jesus Cristo Nosso Senhor`
 
     } else if (dia_atual == 3 || dia_atual == 6 || dia_atual == 0) { //Dia 3 = Quarta-feira, dia 6 = Sabado e dia 0 = Domingo
-        document.body.style.background = '#E6E6E6'
+        document.body.style.background = '#EAC102' //Tom de amarelo
         misterios.innerHTML = `Mistérios Gloriosos`
 
         primeiro_misterio.innerHTML = `A Ressurreição de Jesus Cristo Nosso Senhor`
