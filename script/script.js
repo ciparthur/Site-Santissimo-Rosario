@@ -14,7 +14,7 @@ function semana() {
     let quinto_misterio = window.document.getElementById('quinto_misterio')
 
     if (dia_atual == 1 || dia_atual == 4) { //Dia 1 = Segunda-feira e dia 4 = Quinta-feira
-        document.body.style.background = '#1a649b' //Tom de azul
+        document.body.style.background = '#7898cf' //Tom de azul
         misterios.innerHTML = `Mistérios Gozosos`
 
         primeiro_misterio.innerHTML = `Anunciação da Bem-Aventurada Virgem Maria`
