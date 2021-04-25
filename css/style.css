@@ -26,7 +26,7 @@ body {
     font-style: normal;
 }
 
-header#cabecalho {
+header#cabecalho { /*Cabeçalho do site*/
     background-color: white;
     font-family: var(--fonte-titulo);
     min-height: 50px;
@@ -52,7 +52,7 @@ header#cabecalho img {
     top: -15px;
 }
 
-main header {
+main header { /*Cabeçalho do conteúdo principal*/
     text-align: center;
     font-family: var(--fonte-titulo);
     color: black;
@@ -66,7 +66,7 @@ main header div.image {
     width: 100px;
 }
 
-main article {
+main article { /*Artigo principal do site*/
     background-color: white;
     text-align: justify;
     margin: auto;
@@ -77,7 +77,7 @@ main article {
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.322);
 }
 
-main section {
+main section { /*Seções aonde estão as orações*/
     margin-bottom: 8px;
     margin-top: 8px;
 }
@@ -99,11 +99,11 @@ main p {
     line-height: 30px;
 }
 
-p.oracao {
+p.oracao { /*Todo parâgrafo com a classe 'oracao' terá um recuo de 30 pixels*/
     text-indent: 30px;
 }
 
-footer {
+footer { /*Rodapé do site*/
     background-color: white;
     text-align: center;
     font-size: .9em;
