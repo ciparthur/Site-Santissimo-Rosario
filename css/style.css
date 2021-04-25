@@ -12,7 +12,8 @@
 
     --cor0: #EAC102;
     --cor1: #ED1C24;
-    --cor2: #E6E6E6;
+    --cor2: #1a649b;
+    --cor-padrao: #1d1d1d;
 }
 
 * {
@@ -21,7 +22,7 @@
 
 body {
     font-family: var(--fonte-padrao);
-    background-color: var(--cor0);
+    background-color: var(--cor-padrao);
     font-weight: normal;
     font-style: normal;
 }
