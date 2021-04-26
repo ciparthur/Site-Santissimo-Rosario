@@ -12,7 +12,7 @@
 
     --cor0: #EAC102;
     --cor1: #ED1C24;
-    --cor2: #7898cf;
+    --cor2: #7898CF;
     --cor-padrao: #1d1d1d;
 }
 
@@ -102,13 +102,13 @@ main h1 {
     margin: 15px 0px 15px 5px;
 }
 
-main h2, h3 {
+main h2 {
     text-indent: 5px;
     margin: 15px 0px 15px 5px;
     font-family: var(--fonte-titulo);
 }
 
-main p {
+main p {/*Todo parâgrafo dentro da tag 'main' terá uma altura de linha em 30px*/
     line-height: 30px;
 }
 
