@@ -4,7 +4,7 @@
 
  ## Informações sobre o site
 
- Paleta de cores:
+ **Paleta de cores**
 
  #EAC102 - Tom de amarelo - Mistérios Gloriosos
  
@@ -12,7 +12,7 @@
  
  #7898CF - Tom de azul - Mistérios Gozosos
 
- Famílias de fontes:
+ **Famílias de fontes**
 
  Fonte padrão: Ariel, Helvetica, sans-serif
  
