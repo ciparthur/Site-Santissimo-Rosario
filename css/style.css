@@ -124,8 +124,7 @@ main aside h1 {
 }
 
 main article img {
-    width: 100%;
-    width: 25em;
+    width: 50%;
     display: block;
     margin: auto;
 }
