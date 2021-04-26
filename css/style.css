@@ -98,6 +98,7 @@ main article { /*Artigo principal do site*/
     text-align: justify;
     margin: auto;
     max-width: 1000px;
+    min-height: 500px;
     padding: 10px;
     border-radius: 3px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.322);
