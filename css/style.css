@@ -80,7 +80,7 @@ main header { /*Cabeçalho do conteúdo principal*/
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.230);
 }
 
-main header a {
+main header nav a { /*Área de navegação da estrutura do site*/
     text-decoration: none;
     font-weight: 900;
     font-size: 0.9em;
@@ -89,7 +89,7 @@ main header a {
     margin-right: 10px;
 }
 
-main header a:hover {
+main header nav a:hover {
     color: #414040;
 }
 
@@ -97,13 +97,18 @@ main article { /*Artigo principal do site*/
     background-color: white;
     text-align: justify;
     margin: auto;
-    min-height: 500px;
     max-width: 1000px;
     padding: 10px;
     border-radius: 3px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.322);
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+main article img {
+    width: 80%;
+    display: block;
+    margin: auto;
 }
 
 main section { /*Seções aonde estão as orações*/
@@ -121,12 +126,6 @@ main aside {
 
 main aside h1 {
     font-size: 1.5em;
-}
-
-main article img {
-    width: 75%;
-    display: block;
-    margin: auto;
 }
 
 main h1 {
