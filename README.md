@@ -2,6 +2,23 @@
 
 **Site para auxiliar a oração do Terço**
 
+## Informações sobre o site
+
+Paleta de cores:
+
+```
+#EAC102 - Tom de amarelo - Mistérios Gloriosos
+#ED1C24 - Tom de vermelho - Mistérios Dolorosos
+#7898CF - Tom de azul - Mistérios Gozosos
+```
+
+Famílias de fontes:
+
+```
+Fonte padrão: Ariel, Helvetica, sans-serif
+Fonte dos título: Românica
+```
+
 ---
 
 **Terço ✝️**
