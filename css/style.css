@@ -107,17 +107,11 @@ main article { /*Artigo principal do site*/
 }
 
 main article img {
-<<<<<<< HEAD
     width: 50%;
     display: block;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-=======
-    width: 80%;
-    display: block;
-    margin: auto;
->>>>>>> a4363da402dd5a06075954792e80de8eaa185041
 }
 
 main section { /*Seções aonde estão as orações*/
