@@ -83,7 +83,7 @@ main header { /*Cabeçalho do conteúdo principal*/
 main header a {
     text-decoration: none;
     font-weight: 900;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: black;
     transition: .5s;
     margin-right: 10px;
@@ -106,6 +106,14 @@ main article { /*Artigo principal do site*/
     margin-bottom: 10px;
 }
 
+main article img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 main section { /*Seções aonde estão as orações*/
     margin-bottom: 8px;
     margin-top: 8px;
@@ -123,12 +131,6 @@ main aside h1 {
     font-size: 1.5em;
 }
 
-main article img {
-    width: 75%;
-    display: block;
-    margin: auto;
-}
-
 main h1 {
     font-family: var(--fonte-titulo);
     font-size: 2em;
@@ -144,6 +146,11 @@ main h2, h3, h4, h5, h6{
 
 main p {/*Todo parâgrafo dentro da tag 'main' terá uma altura de linha em 30px*/
     line-height: 30px;
+}
+
+main hr {
+    color: rgba(0, 0, 0, 0.150);
+    margin-bottom: 10px;
 }
 
 p.oracao { /*Todo parâgrafo com a classe 'oracao' terá um recuo de 30 pixels*/
