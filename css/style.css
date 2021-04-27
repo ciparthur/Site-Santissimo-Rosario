@@ -13,7 +13,7 @@
     --cor0: #EAC102;
     --cor1: #ED1C24;
     --cor2: #7898CF;
-    --cor-padrao: #1d1d1d;
+    --cor-padrao: #1D1D1D;
 }
 
 * { /*Seletor global*/
@@ -80,7 +80,7 @@ main header { /*Cabeçalho do conteúdo principal*/
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.230);
 }
 
-main header a {
+main header nav a { /*Área de navegação da estrutura do site*/
     text-decoration: none;
     font-weight: 900;
     font-size: 0.8em;
@@ -89,7 +89,7 @@ main header a {
     margin-right: 10px;
 }
 
-main header a:hover {
+main header nav a:hover {
     color: #414040;
 }
 
@@ -97,8 +97,8 @@ main article { /*Artigo principal do site*/
     background-color: white;
     text-align: justify;
     margin: auto;
-    min-height: 500px;
     max-width: 1000px;
+    min-height: 500px;
     padding: 10px;
     border-radius: 3px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.322);
@@ -107,11 +107,17 @@ main article { /*Artigo principal do site*/
 }
 
 main article img {
+<<<<<<< HEAD
     width: 50%;
     display: block;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+=======
+    width: 80%;
+    display: block;
+    margin: auto;
+>>>>>>> a4363da402dd5a06075954792e80de8eaa185041
 }
 
 main section { /*Seções aonde estão as orações*/
