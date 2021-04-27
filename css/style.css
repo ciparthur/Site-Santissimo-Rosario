@@ -13,7 +13,8 @@
     --cor0: #EAC102;
     --cor1: #ED1C24;
     --cor2: #7898CF;
-    --cor-padrao: #1D1D1D;
+    --cor-periferica: #D6D6D6;
+    --cor-padrao: #707070;
 }
 
 * { /*Seletor global*/
@@ -120,7 +121,7 @@ main section { /*Seções aonde estão as orações*/
 }
 
 main aside {
-    background-color: rgb(214, 214, 214);
+    background-color: var(--cor-periferica);
     padding: 10px;
     margin: 25px 15px 25px 15px;
     border-radius: 4px;
