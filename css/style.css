@@ -55,22 +55,6 @@ header#cabecalho img {
     top: -1em;
 }
 
-/* Imagens para o cabeçalho
-header#cabecalho img#ressureicao {
-    position: absolute;
-    top: -0.9em;
-    left: 40em;
-    width: 5em;
-}
-
-header#cabecalho img#sedevacante {
-    position: absolute;
-    width: 3em;
-    top: 0.7em;
-    left: 80.9em;
-}
-*/
-
 main header { /*Cabeçalho do conteúdo principal*/
     text-align: center;
     font-family: var(--fonte-titulo);
@@ -107,12 +91,8 @@ main article { /*Artigo principal do site*/
     margin-bottom: 10px;
 }
 
-main article img {
-    width: 50%;
-    display: block;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+main article h1 {
+    border-bottom: 2px solid #00000026;
 }
 
 main section { /*Seções aonde estão as orações*/
@@ -150,7 +130,7 @@ main p {/*Todo parâgrafo dentro da tag 'main' terá uma altura de linha em 30px
 }
 
 main hr {
-    color: rgba(0, 0, 0, 0.150);
+    color: #00000026;
     margin-bottom: 10px;
 }
 
@@ -158,7 +138,26 @@ p.oracao { /*Todo parâgrafo com a classe 'oracao' terá um recuo de 30 pixels*/
     text-indent: 30px;
 }
 
-footer { /*Rodapé do site*/
+figure {
+    border: 1px solid var(--cor-periferica);
+    background-color: rgb(240, 240, 240);
+    max-width: 250px;
+    float: right;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+.tamanho {
+    width: 100%;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .9em;
+    text-align: center;
+}
+
+footer#rodapé-site { /*Rodapé do site*/
     background-color: white;
     text-align: center;
     font-size: .9em;
@@ -169,12 +168,21 @@ footer { /*Rodapé do site*/
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.322);
 }
 
-footer a {
+footer#rodapé-site p {
+    margin-top: -0.4em;
+}
+
+footer#rodapé-site a {
     text-decoration: none;
     color: black;
 }
 
-footer a:hover {
+footer#rodapé-site a:hover {
     text-decoration: underline;
     color: #1d1d1d;
+}
+
+footer#rodapé-site img {
+    width: 1.7em;
+    margin-bottom: 10px;
 }

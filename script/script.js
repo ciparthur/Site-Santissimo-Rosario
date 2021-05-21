@@ -21,7 +21,7 @@ function misterios() {
         primeiro_misterio.innerHTML = `Anunciação da Bem-Aventurada Virgem Maria`
         segundo_misterio.innerHTML = `Visitação da Bem-Aventurada Virgem Maria`
         terceiro_misterio.innerHTML = `O nascimento de Jesus Cristo Nosso Senhor`
-        quarto_misterio.innerHTML = `Purificação da Bem-Aventurada Virgem Maria no Templo`
+        quarto_misterio.innerHTML = `A apresentação do Menino Jesus no Templo e a purificação da Bem-Aventurada Virgem Maria`
         quinto_misterio.innerHTML = `Descoberta de Nosso Senhor Jesus Cristo no Templo`
 
     } else if (dia_atual == 2 || dia_atual == 5) { //Dia 2 = Terça-feira e dia 5 = Sexta-feira
@@ -29,7 +29,7 @@ function misterios() {
         misterios.innerHTML = `Mistérios Dolorosos` //Título principal
 
         //Os cinco Mistérios do dia
-        primeiro_misterio.innerHTML = `A Oração e Agonia de Jesus Cristo Nosso Senhor`
+        primeiro_misterio.innerHTML = `A Oração e Agonia de Jesus Cristo Nosso Senhor no Jardim das Oliveiras`
         segundo_misterio.innerHTML = `A Flagelação de Jesus Cristo Nosso Senhor`
         terceiro_misterio.innerHTML = `A Coroação de Espinhos de Jesus Cristo Nosso Senhor`
         quarto_misterio.innerHTML = `O Transporte a Cruz de Jesus Cristo Nosso Senhor`
@@ -42,7 +42,7 @@ function misterios() {
         //Os cinco Mistérios do dia
         primeiro_misterio.innerHTML = `A Ressurreição de Jesus Cristo Nosso Senhor`
         segundo_misterio.innerHTML = `A Ascensão de Jesus Cristo Nosso Senhor aos Céus`
-        terceiro_misterio.innerHTML = `A Vindo do Espírito Santo`
+        terceiro_misterio.innerHTML = `A Vindo do Espírito Santo em Pentecostes`
         quarto_misterio.innerHTML = `Assunção da Bem-Aventurada Virgem Maria aos Céus`
         quinto_misterio.innerHTML = `Coroação da Bem-Aventurada Virgem Maria nos Céus`
 

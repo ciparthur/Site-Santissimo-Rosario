@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+main {
+    text-align: center;
+}
+
+main img {
+    margin-top: 130px;
+    margin-right: 130px;
+    transition: .5s;
+    border: 1px solid #1D1D1D;
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 130px;
+}
+
+main img:hover {
+    margin-top: 80px;
+    margin-right: 80px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    width: 190px;
+}

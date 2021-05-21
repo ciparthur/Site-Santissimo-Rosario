@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <title>Site Santíssimo Rosário</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="imagens/favicon_io/site.webmanifest">
+    <title>Site Santíssimo Rosário - Santo Terço</title>
 </head>
 <body onload="misterios()">
     <header id="cabecalho"> <!-- Cabeçalho do Site -->
@@ -14,11 +17,6 @@
         <p>Site para auxiliar a oração do Terço</p>
         
         <img src="imagens/rosario.png" alt="Terço">
-        
-        <!-- Imagens para o cabeçalho
-        <img src="imagens/ressureição.png" alt="Ressureição de Cristo" id="ressureicao">
-        <img src="imagens/Sede_vacante.png" alt="Sedevacantismo" id="sedevacante">
-        -->
     </header>
 
     <main>
@@ -26,7 +24,8 @@
             <h1 id="misterios"></h1>
 
             <nav> <!-- Área de navegação -->
-                <a href="index.html" target="_self" hreflang="pt-br">Terço</a>
+                <a href="index.html" target="_self" hreflang="pt-br">Santo Terço</a>
+                <a href="rosario.html" target="_self" rel="next" hreflang="pt-br">Santo Rosário</a>
                 <a href="devocao-mariana.html" target="_self" hreflang="pt-br" rel="next">Devoção Mariana</a>
                 <a href="sobre.html" target="_self" hreflang="pt-br" rel="next">Sobre</a>
             </nav>
@@ -35,7 +34,6 @@
         <article>
             <section>
                 <h1>Antes do início do Terço</h1> <!-- Antes do início do Terço -->
-                <hr>
                 
                 <h2>Invocação do Espírito Santo</h2>
                 <p class="oracao">
@@ -45,13 +43,25 @@
                     Ó Deus, que iluminastes os corações de Vossos fiéis com as luzes do Espírito Santo, Dai-nos pelo mesmo Espírito o dom da verdadeira sabedoria e de sempre gozar de Sua consolação.
                 </p>
                 <p class="oracao">
-                    Pelo mesmo Cristo Nosso Senhor, Amém.
+                    Pelo mesmo Cristo Nosso Senhor. Amém.
                 </p>
-            </section>
+
+                <h2>Ato de Contrição</h2>
+                <p class="oracao">
+                    Senhor meu Jesus Cristo, Deus e homem verdadeiro, Criador e Redentor meu: por serdes Vós quem sois, sumamente bom e digno de ser amado sobre todas as coisas, e porque Vos amo e estimo, pesa-me, Senhor, de todo o meu coração, de Vos Ter ofendido; pesa-me também de Ter perdido o céu e merecido o inferno; e proponho firmemente, ajudado com o auxílio de Vossa divina graça, emendar-me e nunca mais Vos tornar a ofender. Espero alcançar o perdão de minhas culpas pela Vossa infinita misericórdia. Amém.
+                </p>
+
+                <h2>Uno-me</h2>
+                <p class="oracao">
+                    Uno-me a todos os santos que estão no Céu, a todos os justos que estão sobre a terra, a todas as almas fiéis que estão neste lugar. Uno-me a Vós, meu Jesus, para louvar dignamente vossa santa Mãe, e louvar-vos a Vós, nela e por ela. Renuncio a todas as distrações que me vierem durante este Rosário, que quero recitar com modéstia, atenção e devoção, como se fosse o último de minha vida.
+                </p>
+                <p class="oracao">
+                    Nós vos oferecemos, Trindade Santíssima, este <strong>Credo</strong>, para honrar os mistérios todos de nossa fé; este <strong>Pater</strong> e estas três <strong>Ave-Marias</strong>, para honrar a unidade de vossa essência e a trindade de vossas pessoas. Pedimo-vos uma fé viva, uma esperança firme e uma caridade ardente. Amém.
+                </p>
+            </section> <!-- Fim do antes do Terço -->
             
             <section>
                 <h1>Início do Terço</h1> <!-- Início do Terço -->
-                <hr>
 
                 <h2>Sinal da Cruz</h2>
                 <p>Segurando a Cruz, faça o Sinal da Cruz enquanto diz:</p>
@@ -90,11 +100,10 @@
                 <p class="oracao">
                     Glória ao Padre e ao Filho e ao Espírito Santo. Assim como era no princípio, agora e sempre e por todos os séculos dos séculos. Amém.
                 </p>
-            </section>
+            </section> <!-- Fim do início do Terço -->
             
             <section>
                 <h1>Primeiro Mistério: <span id="primeiro_misterio"></span></h1> <!-- Primeiro Mistério -->
-                <hr>
 
                 <h2>Padre Nosso</h2>
                 <p class="oracao">
@@ -123,11 +132,10 @@
                 <p class="oracao">
                     Ó meu Jesus, perdoai-nos, livrai-nos do fogo do inferno. Levai as almas todas para o Céu, e socorrei principalmente as que mais precisarem.
                 </p>
-            </section>
+            </section> <!-- Fim do primeiro Mistério -->
 
             <section>
                 <h1>Segundo Mistério: <span id="segundo_misterio"></span></h1> <!-- Segundo Mistério -->
-                <hr>
 
                 <h2>Padre Nosso</h2>
                 <p class="oracao">
@@ -154,11 +162,10 @@
                 <p class="oracao">
                     Ó meu Jesus, perdoai-nos, livrai-nos do fogo do inferno. Levai as almas todas para o Céu, e socorrei principalmente as que mais precisarem.
                 </p>
-            </section>
+            </section> <!-- Fim do segundo Mistério -->
 
             <section>
                 <h1>Terceiro Mistério: <span id="terceiro_misterio"></span></h1> <!-- Terceiro Mistério -->
-                <hr>
 
                 <h2>Padre Nosso</h2>
                 <p class="oracao">
@@ -185,11 +192,10 @@
                 <p class="oracao">
                     Ó meu Jesus, perdoai-nos, livrai-nos do fogo do inferno. Levai as almas todas para o Céu, e socorrei principalmente as que mais precisarem.
                 </p>
-            </section>
+            </section> <!-- Fim do terceiro Mistério -->
 
             <section>
                 <h1>Quarto Mistério: <span id="quarto_misterio"></span></h1> <!-- Quarto Mistério -->
-                <hr>
 
                 <h2>Padre Nosso</h2>
                 <p class="oracao">
@@ -216,11 +222,10 @@
                 <p class="oracao">
                     Ó meu Jesus, perdoai-nos, livrai-nos do fogo do inferno. Levai as almas todas para o Céu, e socorrei principalmente as que mais precisarem.
                 </p>
-            </section>
+            </section> <!-- Fim do quarto Mistério -->
 
             <section>
                 <h1>Quinto Mistério: <span id="quinto_misterio"></span></h1> <!-- Quinto Mistério -->
-                <hr>
 
                 <h2>Padre Nosso</h2>
                 <p class="oracao">
@@ -249,11 +254,10 @@
                 <p class="oracao">
                     Ó meu Jesus, perdoai-nos, livrai-nos do fogo do inferno. Levai as almas todas para o Céu, e socorrei principalmente as que mais precisarem.
                 </p>
-            </section>
+            </section> <!-- Fim do quinto Mistério -->
 
             <section>
                 <h1>Final do Terço</h1> <!-- Final do Terço -->
-                <hr>
 
                 <h2>Infinitas graças vos damos</h2>
                 <p>Segurando a Medalha.</p>
@@ -268,12 +272,14 @@
                 <p class="oracao">
                     Rogai por nós Santa Mãe de Deus, para que sejamos dignos das promessas de Cristo. Amém.
                 </p>
-            </section>
+            </section> <!-- Fim do final do Terço-->
         </article>
     </main>
 
-    <footer> <!-- Rodapé do site com link para o Instagram -->
-        <p>Site criado por &copy;<strong><a href="https://www.instagram.com/cipitelliarthur/" target="_blank" rel="external" hreflang="pt-br">ArthurGabrielCipitelli</a></strong></p>
+    <footer id="rodapé-site"> <!-- Rodapé do site com link para o Instagram -->
+        <img src="imagens/Sede_vacante.png" alt="Sedevacantismo">
+
+        <p>&copy; <strong><a href="https://www.instagram.com/sedevacantebrasil/" target="_blank" rel="external" hreflang="pt-br">SedevacanteBrasil</a></strong></p>
     </footer>
 
     <script src="script/script.js"></script>
