@@ -21,7 +21,7 @@ function misterios() {
         primeiro_misterio.innerHTML = `Anunciação da Bem-Aventurada Virgem Maria`
         segundo_misterio.innerHTML = `Visitação da Bem-Aventurada Virgem Maria`
         terceiro_misterio.innerHTML = `O nascimento de Jesus Cristo Nosso Senhor`
-        quarto_misterio.innerHTML = `A apresentação do Menino Jesus no Templo e a purificação da Bem-Aventurada Virgem Maria`
+        quarto_misterio.innerHTML = `A purificação da Bem-Aventurada Virgem Maria`
         quinto_misterio.innerHTML = `Descoberta de Nosso Senhor Jesus Cristo no Templo`
 
     } else if (dia_atual == 2 || dia_atual == 5) { //Dia 2 = Terça-feira e dia 5 = Sexta-feira
