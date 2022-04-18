@@ -4,6 +4,10 @@
 link: https://ciparthur.github.io/Site-Santissimo-Rosario
 
 ---
+## Captura de tela
+
+![CapturaDeTela01](imagens/captura-de-tela-01.png)
+![CapturaDeTela0](imagens/captura-de-tela-02.png)
 
 ## Informações sobre o site
 
