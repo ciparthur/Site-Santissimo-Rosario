@@ -27,17 +27,13 @@ link: https://ciparthur.github.io/Site-Santissimo-Rosario
 
 ---
 
-### Terço ✝️
+### Mistérios do Santíssimo Rosário ✝️
 
 * Mistérios Gozosos na segunda-feira e quinta-feira;
  
 * Mistérios Dolorosos na terça-feira e sexta-feira;
  
 * Mistérios Gloriosos na quarta-feira, sábado e domingo.
- 
-![MeuTerço](./imagens/MeuTerço.jpg)
- 
-![NossaSenhora](./imagens/NossaSenhora.jpg)
 
 ---
 
